@@ -20,18 +20,23 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>Update of Mehnis mod for RimWorld 1.1
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Mehnis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1322328003
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+- Chinese translation by: Zephyr
 
-Support-chat:
-https://invite.gg/mlie
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Non-steam version:
-https://github.com/emipa606/DismissTrader
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/DismissTrader][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
 Trader dismissal. Get rid of loitering traders that have overstayed their welcome with the click of a button. Send away traders to make them leave.
 
 Traders lagging your game? With this mod you can:
@@ -55,5 +60,5 @@ Want to donate a translation in your language? Please drop me a link!
 
 
 If you like this mod, please considering buying me a coffee.
-</description>
+[url=https://steamcommunity.com/linkfilter/?url=https://ko-fi.com/mehnicreates][img]https://i.imgur.com/QGcents.png[/img][/url]</description>
 </ModMetaData>
