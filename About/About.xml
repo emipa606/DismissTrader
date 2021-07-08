@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Dismiss Trader (Continued)</name>
   <packageId>Mlie.DismissTrader</packageId>
@@ -8,6 +8,7 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -24,7 +25,7 @@
 Update of Mehnis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1322328003
 
-- Chinese translation by: Zephyr
+- Chinese translation: https://steamcommunity.com/sharedfiles/filedetails/?id=2081531370 
 
 [img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
@@ -46,9 +47,7 @@ Traders lagging your game? With this mod you can:
 - Get rid of traders eating your food
 - Force trader departure
 
-GitHub: https://github.com/Mehni/TraderDismissal/releases
 Ludeon: https://ludeon.com/forums/index.php?topic=35832.0
-Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1322328003
 
 German translation by Quadrum.
 Spanish translation by 53N4.
@@ -58,7 +57,15 @@ English translation by Mehni.
 
 Want to donate a translation in your language? Please drop me a link!
 
-
-If you like this mod, please considering buying me a coffee.
-[url=https://steamcommunity.com/linkfilter/?url=https://ko-fi.com/mehnicreates][img]https://i.imgur.com/QGcents.png[/img][/url]</description>
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

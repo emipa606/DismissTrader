@@ -6,11 +6,14 @@ using Verse.AI.Group;
 
 namespace Dismiss_Trader
 {
-    class JobDriver_DismissTrader : JobDriver
+    internal class JobDriver_DismissTrader : JobDriver
     {
-        private Pawn Trader => (Pawn)base.TargetThingA;
+        private Pawn Trader => (Pawn) TargetThingA;
 
-        public override bool TryMakePreToilReservations(bool errorOnFailed) => this.pawn.Reserve(this.Trader, this.job);
+        public override bool TryMakePreToilReservations(bool errorOnFailed)
+        {
+            return pawn.Reserve(Trader, job);
+        }
 
         //approach: find Lord transition that is the regular time-out and add another (very short) Trigger_TicksPassed. That'll then fire, and the traders will leave.
 
@@ -22,23 +25,30 @@ namespace Dismiss_Trader
         protected override IEnumerable<Toil> MakeNewToils()
         {
             this.FailOnDespawnedOrNull(TargetIndex.A);
-            yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch).FailOn(() => !this.Trader.CanTradeNow);
-            Toil trade = new Toil();
-            trade.initAction = () =>
+            yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch).FailOn(() => !Trader.CanTradeNow);
+            var trade = new Toil
             {
-                if (this.Trader.CanTradeNow)
+                initAction = () =>
                 {
-                    Lord lord = Trader.GetLord();
-                    List<Transition> transitions = lord.Graph.transitions.ToList();
-                    foreach (Transition transition in transitions)
+                    if (!Trader.CanTradeNow)
                     {
-                        foreach (Trigger trigger in transition.triggers)
+                        return;
+                    }
+
+                    var lord = Trader.GetLord();
+                    var transitions = lord.Graph.transitions.ToList();
+                    foreach (var transition in transitions)
+                    {
+                        foreach (var trigger in transition.triggers)
                         {
-                            if (trigger is Trigger_TicksPassed && transition.preActions.Any(x => x is TransitionAction_CheckGiveGift))
+                            if (trigger is not Trigger_TicksPassed ||
+                                !transition.preActions.Any(x => x is TransitionAction_CheckGiveGift))
                             {
-                                transition.triggers.Add(new Trigger_TicksPassed(20));
-                                break;
+                                continue;
                             }
+
+                            transition.triggers.Add(new Trigger_TicksPassed(20));
+                            break;
                         }
                     }
                 }
