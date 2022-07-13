@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Dismiss Trader (Continued)</name>
   <packageId>Mlie.DismissTrader</packageId>
@@ -21,22 +21,26 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Mehnis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1322328003
 
 - Chinese translation: https://steamcommunity.com/sharedfiles/filedetails/?id=2081531370 
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/DismissTrader][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 Trader dismissal. Get rid of loitering traders that have overstayed their welcome with the click of a button. Send away traders to make them leave.
 
@@ -57,7 +61,7 @@ English translation by Mehni.
 
 Want to donate a translation in your language? Please drop me a link!
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -68,4 +72,3 @@ Want to donate a translation in your language? Please drop me a link!
 [/list]
 </description>
 </ModMetaData>
-
