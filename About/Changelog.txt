@@ -1,5 +1,9 @@
 # Changelog for DismissTrader
 
+1.4.2 - Added Russian translation by Tkhakiro.
+Used DeepL to update translations for ChineseSimplified, French
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

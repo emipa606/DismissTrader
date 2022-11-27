@@ -1,5 +1,6 @@
 # DismissTrader
 
+
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Mehnis mod
@@ -45,4 +46,4 @@ Want to donate a translation in your language? Please drop me a link!
 
 
 
-
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2078518511]Last updated 2022-11-27
