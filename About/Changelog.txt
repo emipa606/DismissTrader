@@ -1,5 +1,8 @@
 # Changelog for DismissTrader
 
+1.4.3 - Last update, added end-of-life message
+
+
 1.4.2 - Added Russian translation by Tkhakiro.
 Used DeepL to update translations for ChineseSimplified, French
 

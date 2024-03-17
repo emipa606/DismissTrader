@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TabulaRasa.UpdateDef Abstract="true" Name="DismissTrader_UpdateInfoBase">
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2078518511</linkUrl>
+		<banner>UpdateInfo/DismissTrader</banner>
+	</TabulaRasa.UpdateDef>
+	<TabulaRasa.UpdateDef ParentName="DismissTrader_UpdateInfoBase">
+		<defName>DismissTrader_1_4_2</defName>
+		<date>2024/3/17</date>
+		<content>The features of this mod has now been included in the game. This mod will not be further updated but will stay up to support the previous versions of the game.</content>
+	</TabulaRasa.UpdateDef>
+</Defs>
+
